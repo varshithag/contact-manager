@@ -1,0 +1,54 @@
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+.head{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight:bold;
+    background: url('/img/background1.jpg') no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+ 
+
+}
+.title{
+    text-align: center;
+    margin-bottom: 25px;
+    color: black
+}
+ .reg{ 
+    position: absolute;
+    top:20%;
+    left:40%;    
+    border:black 5px solid;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0,15px,25px, rgba(0, 0, 0, .5);
+} 
+
+.acc{   
+    position: absolute;
+    width: 320px;
+    height: 420px;
+    background: #0000;
+    top:20%;
+    left: 50%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+ .sh{
+    position: absolute;
+    width: 320px;
+    height: 100px;
+    top:20%;
+    transform: translate(50%,50%);    
+    left: 30%;
+    border: black 2px solid;
+    margin: 20px;
+    /* background-color: rgb(123, 255, 0); */
+    font-size: 20px
+} 
+/* .sh{
+    border: 1px solid;
+    padding: 10px;
+    
+    box-shadow: 5px 10px #888888;
+} */
