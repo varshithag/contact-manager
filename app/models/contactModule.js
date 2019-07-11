@@ -17,6 +17,9 @@ const ContactSchema=new Schema({
     user:{
         type:Schema.Types.ObjectId,
         ref:'User'
+    },
+    imageurl:{
+        type:String
     }
 })
 const Contact=mongoose.model('Contact',ContactSchema)

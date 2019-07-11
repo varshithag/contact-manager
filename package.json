@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "concurrently \"nodemon start\" \"npm start --prefix=contact-client\" "
+    "dev": "concurrently \"nodemon start\" \"npm start --prefix=contact-client\" ",
+    "heroku-postbuild": "cd contact-client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "10.3.0",
+    "npm": "^6.8.0"
   },
   "keywords": [],
   "author": "",
